@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(29, 105, 198);
+  padding: 20px;
+  border-radius: 1rem;
+  width: 500px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.choice {
+  font-size: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid black;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+  transition: all 0.3s ease;
+}
+
+#playerDisplay,
+#computerDisplay,
+#result {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.choice:hover {
+  background-color: rgb(235, 54, 54);
+}
+
+#score {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: rgb(231, 124, 11);
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  transition: all 0.3s ease;
+}
+
+#reset:hover {
+  background-color: rgb(213, 157, 26);
+}
